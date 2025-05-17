@@ -39,4 +39,4 @@ import { promedioMejorado } from './helpers'
 const ruta: string = '././nota.txt'
 
 console.log(`El promedio de las notas es: ${calcularPromedio(ruta)}`)
-console.log(`El promedio de las notas es: ${promedioMejorado(ruta).promedio}`)
+console.log(`El promedio de las notas es: ${promedioMejorado(ruta).promedio} y el total de alumnos es: ${promedioMejorado(ruta).cantidadEstudiantes}`)
