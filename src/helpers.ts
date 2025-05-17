@@ -55,14 +55,14 @@ function promedioMejorado(path: string): Resultado {
         estudiantes: [],
         cantidadEstudiantes: 0
     }
-    this.promedio = suma / notas.length
-    this.cantidadEstudiantes = lineas.length
-    this.estudiantes = []
+    nuevoResultado.promedio = suma / notas.length
+    nuevoResultado.cantidadEstudiantes = lineas.length
+    nuevoResultado.estudiantes = []
     for (let i = 0; i < lineas.length; i++) {
         const linea = lineas[i]
         const parte = linea.split(',')
         const nombre = parte[0]
-        this.estudiantes.push(nombre)
+        nuevoResultado.estudiantes.push(nombre)
     }   
 
     return nuevoResultado
