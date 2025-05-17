@@ -1,0 +1,25 @@
+{
+  "name": "ejemplosmodulos",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mamarquezp/ejemplosModulos#readme",
+  "bugs": {
+    "url": "https://github.com/mamarquezp/ejemplosModulos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamarquezp/ejemplosModulos.git"
+  },
+  "license": "ISC",
+  "author": "Mike Marquez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/src/index",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18"
+  }
+}
